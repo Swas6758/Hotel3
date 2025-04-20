@@ -1,0 +1,9 @@
+CREATE TABLE Room(
+	roomId int,
+	price varchar(255),
+	roomType varchar(255),
+	dob date,
+	availibilityStatus varchar(255)
+);
+Drop table Room;
+select * from Room;

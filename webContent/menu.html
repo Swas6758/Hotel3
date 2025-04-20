@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Dashboard</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-container {
+        background: linear-gradient(145deg, #ffffff, #e6e6e6);
+        border-radius: 12px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+        padding: 40px;
+        width: 300px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: #444;
+        margin-bottom: 100px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    a {
+        display: block;
+        margin: 15px 0;
+        padding: 12px;
+        text-decoration: none;
+        color: #ffffff;
+        background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    a:hover {
+        background-color: #0073e6;
+        transform: scale(1.05);
+    }
+
+    a:active {
+        transform: scale(0.98);
+        background-color: #005bb5;
+    }
+</style>
+</head>
+<body>
+    <div class="menu-container">
+        <h3>Admin Dashboard</h3>
+        <a href="RegistrationDetails.jsp">Add Rooms</a>
+        <a href="MainController?actionVal=fetchAll">View Rooms</a>
+    </div>
+</body>
+</html>
